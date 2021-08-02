@@ -1,0 +1,2558 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#"
+     xml:base="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:CLC_Backbone_New="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#hasCode -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#hasCode">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#LandCoverClass"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#LandCoverCode"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#hasDate -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#hasDate">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#LandCoverClass"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#Date"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#hasLandCover -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#hasLandCover">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#LandCoverClass"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#LandCoverClass"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#AgriculturalAreas -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#AgriculturalAreas">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#LandCoverClass"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#Agro-ForestryAreas -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#Agro-ForestryAreas">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#LandCoverClass"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#Airports -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#Airports">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#LandCoverClass"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#AnnualCropsAssociatedWithPermanentCrops -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#AnnualCropsAssociatedWithPermanentCrops">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#LandCoverClass"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#ArableLand -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#ArableLand">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#LandCoverClass"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#ArtificialNonAgriculturalVegetatedAreas -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#ArtificialNonAgriculturalVegetatedAreas">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#LandCoverClass"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#ArtificialSurfaces -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#ArtificialSurfaces">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#LandCoverClass"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#BareRocks -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#BareRocks">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#LandCoverClass"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#BeachesDunesAndSandPlains -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#BeachesDunesAndSandPlains">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#LandCoverClass"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#Broad-LeavedForests -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#Broad-LeavedForests">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#LandCoverClass"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#BurntAreas -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#BurntAreas">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#LandCoverClass"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#CLC -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#CLC"/>
+    
+
+
+    <!-- http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#CoastalLagoons -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#CoastalLagoons">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#LandCoverClass"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#CoastalSaltMarshes -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#CoastalSaltMarshes">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#LandCoverClass"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#CoastalWetland -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#CoastalWetland">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#LandCoverClass"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#ComplexCultivationPatterns -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#ComplexCultivationPatterns">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#LandCoverClass"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#ConiferousForest -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#ConiferousForest">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#LandCoverClass"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#ConstructionSites -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#ConstructionSites">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#LandCoverClass"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#ContinuousUrbanFabric -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#ContinuousUrbanFabric">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#LandCoverClass"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#Date -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#Date"/>
+    
+
+
+    <!-- http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#DiscontinuousUrbanFabric -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#DiscontinuousUrbanFabric">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#LandCoverClass"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#DumpSites -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#DumpSites">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#LandCoverClass"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#Estuaries -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#Estuaries">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#LandCoverClass"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#ForestAndSeminaturalAreas -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#ForestAndSeminaturalAreas">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#LandCoverClass"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#Forests -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#Forests">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#LandCoverClass"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#FruitTreesAndBerryPlantations -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#FruitTreesAndBerryPlantations">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#LandCoverClass"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#GlaciersAndPerpetualSnow -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#GlaciersAndPerpetualSnow">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#LandCoverClass"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#GreenUrbanAreas -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#GreenUrbanAreas">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#LandCoverClass"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#HeterogeneousAgriculturalAreas -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#HeterogeneousAgriculturalAreas">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#LandCoverClass"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#IndustrialCommercialAndTransportUnits -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#IndustrialCommercialAndTransportUnits">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#LandCoverClass"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#IndustrialOrCommercialUnitsAndPublicFacilities -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#IndustrialOrCommercialUnitsAndPublicFacilities">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#LandCoverClass"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#InlandMarshes -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#InlandMarshes">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#LandCoverClass"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#InlandWaters -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#InlandWaters">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#LandCoverClass"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#InlandWetlands -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#InlandWetlands">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#LandCoverClass"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#IntertidalFlats -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#IntertidalFlats">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#LandCoverClass"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#LandCoverArea -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#LandCoverArea">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#hasCode"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#LandCoverCode"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#hasLandCover"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#LandCoverClass"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">Land Cover Area</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#LandCoverClass -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#LandCoverClass">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#CLC"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#hasCode"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#LandCoverCode"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#hasLandCover"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#LandCoverClass"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">Land Cover Class</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#LandCoverCode -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#LandCoverCode">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#CLC"/>
+        <rdfs:label xml:lang="en">Land Cover Code</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#LandPrincipallyOccupiedByAgricultureWithSignificantAreasOfNaturalVegetation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#LandPrincipallyOccupiedByAgricultureWithSignificantAreasOfNaturalVegetation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#LandCoverClass"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#MarineWaters -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#MarineWaters">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#LandCoverClass"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#MineDumpAndConstructionSites -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#MineDumpAndConstructionSites">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#LandCoverClass"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#MineralExtractionSites -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#MineralExtractionSites">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#LandCoverClass"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#MixedForest -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#MixedForest">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#LandCoverClass"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#MoorsAndHealthland -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#MoorsAndHealthland">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#LandCoverClass"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#NaturalGraslands -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#NaturalGraslands">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#LandCoverClass"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#Non-IrrigatedArableLand -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#Non-IrrigatedArableLand">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#LandCoverClass"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#OliveGroves -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#OliveGroves">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#LandCoverClass"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#OpenSpacesWithLittleOrNoVegetation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#OpenSpacesWithLittleOrNoVegetation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#LandCoverClass"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#Pastures -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#Pastures">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#LandCoverClass"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#PasturesMeadowsAndOtherPermanentGrasslandsUnderAgriculturalUse -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#PasturesMeadowsAndOtherPermanentGrasslandsUnderAgriculturalUse">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#LandCoverClass"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#Peatbogs -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#Peatbogs">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#LandCoverClass"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#PermanentCrops -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#PermanentCrops">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#LandCoverClass"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#PermanentlyIrrigatedLand -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#PermanentlyIrrigatedLand">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#LandCoverClass"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#PortAreas -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#PortAreas">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#LandCoverClass"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#RiceFields -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#RiceFields">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#LandCoverClass"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#RoadAndRailNetworksAndAssociatedLand -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#RoadAndRailNetworksAndAssociatedLand">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#LandCoverClass"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#Salines -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#Salines">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#LandCoverClass"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#SclerophyllousVegetation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#SclerophyllousVegetation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#LandCoverClass"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#SeaAndOcean -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#SeaAndOcean">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#LandCoverClass"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#SparselyVegetatedAreas -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#SparselyVegetatedAreas">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#LandCoverClass"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#SportAndLeisureFacilities -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#SportAndLeisureFacilities">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#LandCoverClass"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#TransitionalWoodland-Shrub -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#TransitionalWoodland-Shrub">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#LandCoverClass"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#UrbanFabric -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#UrbanFabric">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#LandCoverClass"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#Vineyards -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#Vineyards">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#LandCoverClass"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#WaterBodies -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#WaterBodies">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#LandCoverClass"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#WaterBody -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#WaterBody">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#LandCoverClass"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#WaterCourses -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#WaterCourses">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#LandCoverClass"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#Wetlands -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#Wetlands">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#LandCoverClass"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#1 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#1">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#LandCoverCode"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#11 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#11">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#1"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#111 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#111">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#11"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#112 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#112">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#11"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#12 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#12">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#1"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#121 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#121">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#12"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#122 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#122">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#12"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#123 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#123">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#12"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#124 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#124">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#12"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#13 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#13">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#1"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#131 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#131">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#13"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#132 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#132">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#13"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#133 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#133">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#13"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#14 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#14">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#1"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#141 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#141">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#14"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#142 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#142">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#14"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#1990 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#1990">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#Date"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#2 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#2">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#LandCoverCode"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#2000 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#2000">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#Date"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#2006 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#2006">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#Date"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#2012 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#2012">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#Date"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#2018 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#2018">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#Date"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#21 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#21">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#2"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#211 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#211">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#21"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#212 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#212">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#21"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#213 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#213">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#21"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#22 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#22">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#2"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#221 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#221">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#22"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#222 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#222">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#22"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#223 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#223">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#22"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#23 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#23">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#2"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#231 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#231">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#23"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#24 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#24">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#2"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#241 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#241">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#24"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#242 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#242">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#24"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#243 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#243">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#24"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#244 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#244">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#24"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#3 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#3">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#LandCoverCode"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#31 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#31">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#3"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#311 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#311">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#31"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#312 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#312">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#31"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#313 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#313">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#31"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#32 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#32">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#3"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#321 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#321">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#32"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#322 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#322">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#32"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#323 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#323">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#32"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#324 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#324">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#32"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#33 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#33">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#3"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#331 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#331">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#33"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#332 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#332">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#33"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#333 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#333">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#33"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#334 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#334">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#33"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#335 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#335">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#33"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#4 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#4">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#LandCoverCode"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#41 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#41">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#4"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#411 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#411">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#41"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#412 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#412">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#41"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#42 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#42">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#4"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#421 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#421">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#42"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#422 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#422">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#42"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#423 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#423">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#42"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#5 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#5">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#LandCoverCode"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#51 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#51">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#5"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#511 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#511">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#51"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#512 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#512">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#51"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#52 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#52">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#5"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#521 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#521">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#52"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#522 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#522">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#52"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#523 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#523">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#52"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#ScrubAnd/OrHerbaceousVegetationAssociations -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#ScrubAnd/OrHerbaceousVegetationAssociations">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#LandCoverClass"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#AgriculturalAreas -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#AgriculturalAreas">
+        <rdf:type rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#LandCoverClass"/>
+        <owl:sameAs rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#2"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#Agro-ForestryAreas -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#Agro-ForestryAreas">
+        <rdf:type rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#LandCoverClass"/>
+        <owl:sameAs rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#244"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#Airports -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#Airports">
+        <rdf:type rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#LandCoverClass"/>
+        <owl:sameAs rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#124"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#AnnualCropsAssociatedWithPermanentCrops -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#AnnualCropsAssociatedWithPermanentCrops">
+        <rdf:type rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#LandCoverClass"/>
+        <owl:sameAs rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#241"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#ArableLand -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#ArableLand">
+        <rdf:type rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#LandCoverClass"/>
+        <owl:sameAs rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#21"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#ArtificialNonAgriculturalVegetatedAreas -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#ArtificialNonAgriculturalVegetatedAreas">
+        <rdf:type rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#LandCoverClass"/>
+        <owl:sameAs rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#14"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#ArtificialSurfaces -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#ArtificialSurfaces">
+        <rdf:type rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#LandCoverClass"/>
+        <owl:sameAs rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#1"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#BareRocks -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#BareRocks">
+        <rdf:type rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#LandCoverClass"/>
+        <owl:sameAs rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#332"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#BeachesDunesAndSandPlains -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#BeachesDunesAndSandPlains">
+        <rdf:type rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#LandCoverClass"/>
+        <owl:sameAs rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#331"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#Broad-LeavedForests -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#Broad-LeavedForests">
+        <rdf:type rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#LandCoverClass"/>
+        <owl:sameAs rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#311"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#BurntAreas -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#BurntAreas">
+        <rdf:type rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#LandCoverClass"/>
+        <owl:sameAs rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#334"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#CoastalLagoons -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#CoastalLagoons">
+        <rdf:type rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#LandCoverClass"/>
+        <owl:sameAs rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#521"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#CoastalSaltMarshes -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#CoastalSaltMarshes">
+        <rdf:type rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#LandCoverClass"/>
+        <owl:sameAs rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#421"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#CoastalWetland -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#CoastalWetland">
+        <rdf:type rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#LandCoverClass"/>
+        <owl:sameAs rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#42"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#ComplexCultivationPatterns -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#ComplexCultivationPatterns">
+        <rdf:type rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#LandCoverClass"/>
+        <owl:sameAs rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#242"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#ConiferousForest -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#ConiferousForest">
+        <rdf:type rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#LandCoverClass"/>
+        <owl:sameAs rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#312"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#ConstructionSites -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#ConstructionSites">
+        <rdf:type rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#LandCoverClass"/>
+        <owl:sameAs rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#133"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#ContinuousUrbanFabric -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#ContinuousUrbanFabric">
+        <rdf:type rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#LandCoverClass"/>
+        <owl:sameAs rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#111"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#DiscontinuousUrbanFabric -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#DiscontinuousUrbanFabric">
+        <rdf:type rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#LandCoverClass"/>
+        <owl:sameAs rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#112"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#DumpSites -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#DumpSites">
+        <rdf:type rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#LandCoverClass"/>
+        <owl:sameAs rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#132"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#Estuaries -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#Estuaries">
+        <rdf:type rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#LandCoverClass"/>
+        <owl:sameAs rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#522"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#ForestAndSeminaturalAreas -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#ForestAndSeminaturalAreas">
+        <rdf:type rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#LandCoverClass"/>
+        <owl:sameAs rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#3"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#Forests -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#Forests">
+        <rdf:type rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#LandCoverClass"/>
+        <owl:sameAs rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#31"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#FruitTreesAndBerryPlantations -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#FruitTreesAndBerryPlantations">
+        <rdf:type rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#LandCoverClass"/>
+        <owl:sameAs rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#222"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#GlaciersAndPerpetualSnow -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#GlaciersAndPerpetualSnow">
+        <rdf:type rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#LandCoverClass"/>
+        <owl:sameAs rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#335"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#GreenUrbanAreas -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#GreenUrbanAreas">
+        <rdf:type rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#LandCoverClass"/>
+        <owl:sameAs rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#141"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#HeterogeneousAgriculturalAreas -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#HeterogeneousAgriculturalAreas">
+        <rdf:type rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#LandCoverClass"/>
+        <owl:sameAs rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#24"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#IndustrialCommercialAndTransportUnits -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#IndustrialCommercialAndTransportUnits">
+        <rdf:type rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#LandCoverClass"/>
+        <owl:sameAs rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#12"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#IndustrialOrCommercialUnitsAndPublicFacilities -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#IndustrialOrCommercialUnitsAndPublicFacilities">
+        <rdf:type rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#LandCoverClass"/>
+        <owl:sameAs rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#121"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#InlandMarshes -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#InlandMarshes">
+        <rdf:type rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#LandCoverClass"/>
+        <owl:sameAs rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#411"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#InlandWaters -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#InlandWaters">
+        <rdf:type rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#LandCoverClass"/>
+        <owl:sameAs rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#51"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#InlandWetlands -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#InlandWetlands">
+        <rdf:type rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#LandCoverClass"/>
+        <owl:sameAs rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#41"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#IntertidalFlats -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#IntertidalFlats">
+        <rdf:type rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#LandCoverClass"/>
+        <owl:sameAs rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#423"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#LandPrincipallyOccupiedByAgricultureWithSignificantAreasOfNaturalVegetation -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#LandPrincipallyOccupiedByAgricultureWithSignificantAreasOfNaturalVegetation">
+        <rdf:type rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#LandCoverClass"/>
+        <owl:sameAs rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#243"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#MarineWaters -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#MarineWaters">
+        <rdf:type rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#LandCoverClass"/>
+        <owl:sameAs rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#52"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#MineDumpAndConstructionSites -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#MineDumpAndConstructionSites">
+        <rdf:type rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#LandCoverClass"/>
+        <owl:sameAs rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#13"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#MineralExtractionSites -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#MineralExtractionSites">
+        <rdf:type rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#LandCoverClass"/>
+        <owl:sameAs rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#131"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#MixedForest -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#MixedForest">
+        <rdf:type rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#LandCoverClass"/>
+        <owl:sameAs rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#313"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#MoorsAndHealthland -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#MoorsAndHealthland">
+        <rdf:type rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#LandCoverClass"/>
+        <owl:sameAs rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#322"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#NaturalGraslands -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#NaturalGraslands">
+        <rdf:type rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#LandCoverClass"/>
+        <owl:sameAs rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#321"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#Non-IrrigatedArableLand -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#Non-IrrigatedArableLand">
+        <rdf:type rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#LandCoverClass"/>
+        <owl:sameAs rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#211"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#OliveGroves -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#OliveGroves">
+        <rdf:type rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#LandCoverClass"/>
+        <owl:sameAs rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#223"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#OpenSpacesWithLittleOrNoVegetation -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#OpenSpacesWithLittleOrNoVegetation">
+        <rdf:type rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#LandCoverClass"/>
+        <owl:sameAs rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#33"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#Pastures -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#Pastures">
+        <rdf:type rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#LandCoverClass"/>
+        <owl:sameAs rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#23"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#PasturesMeadowsAndOtherPermanentGrasslandsUnderAgriculturalUse -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#PasturesMeadowsAndOtherPermanentGrasslandsUnderAgriculturalUse">
+        <rdf:type rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#LandCoverClass"/>
+        <owl:sameAs rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#231"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#Peatbogs -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#Peatbogs">
+        <rdf:type rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#LandCoverClass"/>
+        <owl:sameAs rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#412"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#PermanentCrops -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#PermanentCrops">
+        <rdf:type rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#LandCoverClass"/>
+        <owl:sameAs rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#22"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#PermanentlyIrrigatedLand -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#PermanentlyIrrigatedLand">
+        <rdf:type rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#LandCoverClass"/>
+        <owl:sameAs rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#212"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#PortAreas -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#PortAreas">
+        <rdf:type rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#LandCoverClass"/>
+        <owl:sameAs rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#123"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#RiceFields -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#RiceFields">
+        <rdf:type rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#LandCoverClass"/>
+        <owl:sameAs rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#213"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#RoadAndRailNetworksAndAssociatedLand -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#RoadAndRailNetworksAndAssociatedLand">
+        <rdf:type rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#LandCoverClass"/>
+        <owl:sameAs rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#122"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#Salines -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#Salines">
+        <rdf:type rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#LandCoverClass"/>
+        <owl:sameAs rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#422"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#SclerophyllousVegetation -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#SclerophyllousVegetation">
+        <rdf:type rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#LandCoverClass"/>
+        <owl:sameAs rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#323"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#SeaAndOcean -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#SeaAndOcean">
+        <rdf:type rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#LandCoverClass"/>
+        <owl:sameAs rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#523"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#SparselyVegetatedAreas -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#SparselyVegetatedAreas">
+        <rdf:type rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#LandCoverClass"/>
+        <owl:sameAs rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#333"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#SportAndLeisureFacilities -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#SportAndLeisureFacilities">
+        <rdf:type rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#LandCoverClass"/>
+        <owl:sameAs rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#142"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#TransitionalWoodland-Shrub -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#TransitionalWoodland-Shrub">
+        <rdf:type rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#LandCoverClass"/>
+        <owl:sameAs rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#324"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#UrbanFabric -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#UrbanFabric">
+        <rdf:type rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#LandCoverClass"/>
+        <owl:sameAs rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#11"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#Vineyards -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#Vineyards">
+        <rdf:type rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#LandCoverClass"/>
+        <owl:sameAs rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#221"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#WaterBodies -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#WaterBodies">
+        <rdf:type rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#LandCoverClass"/>
+        <owl:sameAs rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#5"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#WaterBody -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#WaterBody">
+        <rdf:type rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#LandCoverClass"/>
+        <owl:sameAs rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#512"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#WaterCourses -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#WaterCourses">
+        <rdf:type rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#LandCoverClass"/>
+        <owl:sameAs rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#511"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#Wetlands -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#Wetlands">
+        <rdf:type rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#LandCoverClass"/>
+        <owl:sameAs rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#4"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#ArtificialSurfaces"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#11 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#11">
+        <rdf:type rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#UrbanFabric"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#111 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#111">
+        <rdf:type rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#ContinuousUrbanFabric"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#112 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#112">
+        <rdf:type rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#DiscontinuousUrbanFabric"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#12 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#12">
+        <rdf:type rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#IndustrialCommercialAndTransportUnits"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#121 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#121">
+        <rdf:type rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#IndustrialOrCommercialUnitsAndPublicFacilities"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#122 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#122">
+        <rdf:type rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#RoadAndRailNetworksAndAssociatedLand"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#123 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#123">
+        <rdf:type rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#PortAreas"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#124 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#124">
+        <rdf:type rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#Airports"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#13 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#13">
+        <rdf:type rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#MineDumpAndConstructionSites"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#131 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#131">
+        <rdf:type rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#MineralExtractionSites"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#132 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#132">
+        <rdf:type rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#DumpSites"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#133 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#133">
+        <rdf:type rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#ConstructionSites"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#14 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#14">
+        <rdf:type rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#ArtificialNonAgriculturalVegetatedAreas"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#141 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#141">
+        <rdf:type rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#GreenUrbanAreas"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#142 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#142">
+        <rdf:type rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#SportAndLeisureFacilities"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#AgriculturalAreas"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#21 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#21">
+        <rdf:type rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#ArableLand"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#211 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#211">
+        <rdf:type rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#Non-IrrigatedArableLand"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#212 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#212">
+        <rdf:type rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#PermanentlyIrrigatedLand"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#213 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#213">
+        <rdf:type rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#RiceFields"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#22 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#22">
+        <rdf:type rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#PermanentCrops"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#221 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#221">
+        <rdf:type rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#Vineyards"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#222 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#222">
+        <rdf:type rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#FruitTreesAndBerryPlantations"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#223 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#223">
+        <rdf:type rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#OliveGroves"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#23 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#23">
+        <rdf:type rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#Pastures"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#231 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#231">
+        <rdf:type rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#PasturesMeadowsAndOtherPermanentGrasslandsUnderAgriculturalUse"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#24 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#24">
+        <rdf:type rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#HeterogeneousAgriculturalAreas"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#241 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#241">
+        <rdf:type rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#AnnualCropsAssociatedWithPermanentCrops"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#242 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#242">
+        <rdf:type rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#ComplexCultivationPatterns"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#243 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#243">
+        <rdf:type rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#LandPrincipallyOccupiedByAgricultureWithSignificantAreasOfNaturalVegetation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#244 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#244">
+        <rdf:type rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#Agro-ForestryAreas"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#3 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#3">
+        <rdf:type rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#ForestAndSeminaturalAreas"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#31 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#31">
+        <rdf:type rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#Forests"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#311 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#311">
+        <rdf:type rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#Broad-LeavedForests"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#312 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#312">
+        <rdf:type rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#ConiferousForest"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#313 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#313">
+        <rdf:type rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#MixedForest"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#32 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#32">
+        <rdf:type rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#ScrubAnd/OrHerbaceousVegetationAssociations"/>
+        <owl:sameAs rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#ScrubAnd/OrHerbaceousVegetationAssociations"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#321 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#321">
+        <rdf:type rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#NaturalGraslands"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#322 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#322">
+        <rdf:type rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#MoorsAndHealthland"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#323 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#323">
+        <rdf:type rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#SclerophyllousVegetation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#324 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#324">
+        <rdf:type rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#TransitionalWoodland-Shrub"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#33 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#33">
+        <rdf:type rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#OpenSpacesWithLittleOrNoVegetation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#331 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#331">
+        <rdf:type rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#BeachesDunesAndSandPlains"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#332 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#332">
+        <rdf:type rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#BareRocks"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#333 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#333">
+        <rdf:type rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#SparselyVegetatedAreas"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#334 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#334">
+        <rdf:type rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#BurntAreas"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#335 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#335">
+        <rdf:type rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#GlaciersAndPerpetualSnow"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#4 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#4">
+        <rdf:type rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#Wetlands"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#41 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#41">
+        <rdf:type rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#InlandWetlands"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#411 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#411">
+        <rdf:type rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#InlandMarshes"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#412 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#412">
+        <rdf:type rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#Peatbogs"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#42 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#42">
+        <rdf:type rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#CoastalWetland"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#421 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#421">
+        <rdf:type rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#CoastalSaltMarshes"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#422 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#422">
+        <rdf:type rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#Salines"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#423 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#423">
+        <rdf:type rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#IntertidalFlats"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#5 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#5">
+        <rdf:type rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#WaterBodies"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#51 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#51">
+        <rdf:type rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#InlandWaters"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#511 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#511">
+        <rdf:type rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#WaterCourses"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#512 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#512">
+        <rdf:type rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#WaterBody"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#52 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#52">
+        <rdf:type rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#MarineWaters"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#521 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#521">
+        <rdf:type rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#CoastalLagoons"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#522 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#522">
+        <rdf:type rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#Estuaries"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#523 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#523">
+        <rdf:type rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#SeaAndOcean"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#ScrubAnd/OrHerbaceousVegetationAssociations -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#ScrubAnd/OrHerbaceousVegetationAssociations">
+        <rdf:type rdf:resource="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#LandCoverClass"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotations
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#AgriculturalAreas">
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">id=2</rdfs:comment>
+        <rdfs:label xml:lang="en">Agricultural areas</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#Agro-ForestryAreas">
+        <rdfs:label xml:lang="en">Agro-forestry areas</rdfs:label>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">id=244</rdfs:comment>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#Airports">
+        <rdfs:label xml:lang="en">Airports</rdfs:label>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">id=124</rdfs:comment>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#AnnualCropsAssociatedWithPermanentCrops">
+        <rdfs:label xml:lang="en">Annual crops associated with permanent crops</rdfs:label>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">id=241</rdfs:comment>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#ArableLand">
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">id=21</rdfs:comment>
+        <rdfs:label xml:lang="en">Arable land</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#ArtificialNonAgriculturalVegetatedAreas">
+        <rdfs:label xml:lang="en">Artificial, non-agricultural vegetated areas</rdfs:label>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">id=14</rdfs:comment>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#ArtificialSurfaces">
+        <rdfs:label xml:lang="en">Artificial surfaces</rdfs:label>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">id=1</rdfs:comment>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#BareRocks">
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">id=332</rdfs:comment>
+        <rdfs:label xml:lang="en">Bare rocks</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#BeachesDunesAndSandPlains">
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">id=331</rdfs:comment>
+        <rdfs:label xml:lang="en">Beaches, dunes and sand plains</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#Broad-LeavedForests">
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">id=311</rdfs:comment>
+        <rdfs:label xml:lang="en">Broad-leaved forest</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#BurntAreas">
+        <rdfs:label xml:lang="en">Burnt areas</rdfs:label>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">id=334</rdfs:comment>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#CoastalLagoons">
+        <rdfs:label xml:lang="en">Coastal lagoons</rdfs:label>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">id=521</rdfs:comment>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#CoastalSaltMarshes">
+        <rdfs:label xml:lang="en">Coastal salt marshes</rdfs:label>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">id=421</rdfs:comment>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#CoastalWetland">
+        <rdfs:label xml:lang="en">Coastal wetland</rdfs:label>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">id=42</rdfs:comment>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#ComplexCultivationPatterns">
+        <rdfs:label xml:lang="en">Complex cultivation patterns</rdfs:label>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">id=242</rdfs:comment>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#ConiferousForest">
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">id=312</rdfs:comment>
+        <rdfs:label xml:lang="en">Coniferous forest</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#ConstructionSites">
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">id=133</rdfs:comment>
+        <rdfs:label xml:lang="en">Construction sites</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#ContinuousUrbanFabric">
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">id=111</rdfs:comment>
+        <rdfs:label xml:lang="en">Continuous urban fabric</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#DiscontinuousUrbanFabric">
+        <rdfs:label xml:lang="en">Discontinuous urban fabric</rdfs:label>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">id=112</rdfs:comment>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#DumpSites">
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">id=132</rdfs:comment>
+        <rdfs:label xml:lang="en">Dump sites</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#Estuaries">
+        <rdfs:label xml:lang="en">Estuaries</rdfs:label>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">id=522</rdfs:comment>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#ForestAndSeminaturalAreas">
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">id=3</rdfs:comment>
+        <rdfs:label xml:lang="en">Forest and seminatural areas</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#Forests">
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">id=31</rdfs:comment>
+        <rdfs:label xml:lang="en">Forests</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#FruitTreesAndBerryPlantations">
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">id=222</rdfs:comment>
+        <rdfs:label xml:lang="en">Fruit trees and beery plantations</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#GlaciersAndPerpetualSnow">
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">id=335</rdfs:comment>
+        <rdfs:label xml:lang="en">Glaciers and perpetual snow</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#GreenUrbanAreas">
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">id=141</rdfs:comment>
+        <rdfs:label xml:lang="en">Green urban areas</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#HeterogeneousAgriculturalAreas">
+        <rdfs:label xml:lang="en">Heterogeneous agricultural areas</rdfs:label>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">id=24</rdfs:comment>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#IndustrialCommercialAndTransportUnits">
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">id=12</rdfs:comment>
+        <rdfs:label xml:lang="en">Industrial, commercial and transport units</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#IndustrialOrCommercialUnitsAndPublicFacilities">
+        <rdfs:label xml:lang="en">Industrial or commercial units and public facilities</rdfs:label>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">id=121</rdfs:comment>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#InlandMarshes">
+        <rdfs:label xml:lang="en">Inland marshes</rdfs:label>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">id=411</rdfs:comment>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#InlandWaters">
+        <rdfs:label xml:lang="en">Inland waters</rdfs:label>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">id=51</rdfs:comment>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#InlandWetlands">
+        <rdfs:label xml:lang="en">Inland wetlands</rdfs:label>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">id=41</rdfs:comment>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#IntertidalFlats">
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">id=423</rdfs:comment>
+        <rdfs:label xml:lang="en">Intertidal flats</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#LandPrincipallyOccupiedByAgricultureWithSignificantAreasOfNaturalVegetation">
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">id=243</rdfs:comment>
+        <rdfs:label xml:lang="en">Land principally occupied by agriculture, with significant areas of natural vegetation</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#MarineWaters">
+        <rdfs:label xml:lang="en">Marine waters</rdfs:label>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">id=52</rdfs:comment>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#MineDumpAndConstructionSites">
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">id=13</rdfs:comment>
+        <rdfs:label xml:lang="en">Mine, dump and construction sites</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#MineralExtractionSites">
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">id=131</rdfs:comment>
+        <rdfs:label xml:lang="en">Mineral extraction sites</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#MixedForest">
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">id=313</rdfs:comment>
+        <rdfs:label xml:lang="en">Mixed forest</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#MoorsAndHealthland">
+        <rdfs:label xml:lang="en">Moors and heathland</rdfs:label>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">id=322</rdfs:comment>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#NaturalGraslands">
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">id=321</rdfs:comment>
+        <rdfs:label xml:lang="en">Natural graslands</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#Non-IrrigatedArableLand">
+        <rdfs:label xml:lang="en">Non-irrigated arable land</rdfs:label>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">id=211</rdfs:comment>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#OliveGroves">
+        <rdfs:label xml:lang="en">Olive groves</rdfs:label>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">id=223</rdfs:comment>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#OpenSpacesWithLittleOrNoVegetation">
+        <rdfs:label xml:lang="en">Open spaces with little or no vegetation</rdfs:label>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">id=33</rdfs:comment>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#Pastures">
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">id=23</rdfs:comment>
+        <rdfs:label xml:lang="en">Pastures</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#PasturesMeadowsAndOtherPermanentGrasslandsUnderAgriculturalUse">
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">id=231</rdfs:comment>
+        <rdfs:label xml:lang="en">Pastures, meadows and other permanent grasslands under agricultural use</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#Peatbogs">
+        <rdfs:label xml:lang="en">Peatbogs</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#PermanentCrops">
+        <rdfs:label xml:lang="en">Permanent crops</rdfs:label>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">id=22</rdfs:comment>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#PermanentlyIrrigatedLand">
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">id=212</rdfs:comment>
+        <rdfs:label xml:lang="en">Permanently irrigated land</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#PortAreas">
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">id=123</rdfs:comment>
+        <rdfs:label xml:lang="en">Port areas</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#RiceFields">
+        <rdfs:label xml:lang="en">Rice fields</rdfs:label>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">id=213</rdfs:comment>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#RoadAndRailNetworksAndAssociatedLand">
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">id=122</rdfs:comment>
+        <rdfs:label xml:lang="en">Road and rail networks and associated land</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#Salines">
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">id=422</rdfs:comment>
+        <rdfs:label xml:lang="en">Salines</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#SclerophyllousVegetation">
+        <rdfs:label xml:lang="en">Sclerophyllous vegetation</rdfs:label>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">id=323</rdfs:comment>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#SeaAndOcean">
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">id=523</rdfs:comment>
+        <rdfs:label xml:lang="en">Sea and ocean</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#SparselyVegetatedAreas">
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">id=333</rdfs:comment>
+        <rdfs:label xml:lang="en">Sparsely vegetated areas</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#SportAndLeisureFacilities">
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">id=142</rdfs:comment>
+        <rdfs:label xml:lang="en">Sport and leisure facilities</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#TransitionalWoodland-Shrub">
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">id=324</rdfs:comment>
+        <rdfs:label xml:lang="en">Transitional woodland/shrub</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#UrbanFabric">
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">id=11</rdfs:comment>
+        <rdfs:label xml:lang="en">Urban fabric</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#Vineyards">
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">id=221</rdfs:comment>
+        <rdfs:label xml:lang="en">Vineyards</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#WaterBodies">
+        <rdfs:label xml:lang="en">Water bodies</rdfs:label>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">id=5</rdfs:comment>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#WaterBody">
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">id=512</rdfs:comment>
+        <rdfs:label xml:lang="en">Water body</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#WaterCourses">
+        <rdfs:label xml:lang="en">Water courses</rdfs:label>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">id=511</rdfs:comment>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#Wetlands">
+        <rdfs:label xml:lang="en">Wetlands</rdfs:label>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">id=4</rdfs:comment>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/crims/ontologies/2020/6/CLC_Backbone_New#ScrubAnd/OrHerbaceousVegetationAssociations">
+        <rdfs:label xml:lang="en">Scrub and/or herbaceous vegetation associations</rdfs:label>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">id=32</rdfs:comment>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
